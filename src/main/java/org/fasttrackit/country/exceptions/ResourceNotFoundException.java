@@ -1,4 +1,4 @@
-package org.fasttrackit.curs18.exceptions;
+package org.fasttrackit.country.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
 

@@ -9,9 +9,9 @@
 		<relativePath/>
 	</parent>
 	<groupId>org.fasttrackit</groupId>
-	<artifactId>curs18</artifactId>
+	<artifactId>country-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>curs18</name>
+	<name>country-service</name>
 	<description>Curs 18 code base</description>
 	<properties>
 		<java.version>17</java.version>
@@ -30,6 +30,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 

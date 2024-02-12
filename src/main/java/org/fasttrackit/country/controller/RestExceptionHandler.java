@@ -1,7 +1,7 @@
-package org.fasttrackit.curs18.controller;
+package org.fasttrackit.country.controller;
 
 import lombok.Builder;
-import org.fasttrackit.curs18.exceptions.ResourceNotFoundException;
+import org.fasttrackit.country.exceptions.ResourceNotFoundException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

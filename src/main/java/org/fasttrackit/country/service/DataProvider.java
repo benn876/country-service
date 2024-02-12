@@ -1,4 +1,4 @@
-package org.fasttrackit.curs18.service;
+package org.fasttrackit.country.service;
 
 import java.util.List;
 

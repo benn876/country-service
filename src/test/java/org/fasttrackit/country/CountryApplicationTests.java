@@ -1,10 +1,10 @@
-package org.fasttrackit.curs18;
+package org.fasttrackit.country;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Curs18ApplicationTests {
+class CountryApplicationTests {
 
 	@Test
 	void contextLoads() {

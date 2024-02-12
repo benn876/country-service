@@ -1,13 +1,13 @@
-package org.fasttrackit.curs18;
+package org.fasttrackit.country;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Curs18Application {
+public class CountryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Curs18Application.class, args);
+		SpringApplication.run(CountryApplication.class, args);
 	}
 
 }

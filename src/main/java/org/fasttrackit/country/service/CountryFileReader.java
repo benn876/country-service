@@ -1,7 +1,7 @@
-package org.fasttrackit.curs18.service;
+package org.fasttrackit.country.service;
 
 import lombok.SneakyThrows;
-import org.fasttrackit.curs18.model.Country;
+import org.fasttrackit.country.model.Country;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
@@ -11,7 +11,6 @@ import java.util.List;
 
 import static java.lang.Integer.valueOf;
 import static java.util.Arrays.stream;
-import static java.util.UUID.randomUUID;
 
 @Repository
 public class CountryFileReader implements DataProvider {
@@ -28,7 +27,6 @@ public class CountryFileReader implements DataProvider {
     private Country lineToCountry(String line) {
         String[] countryParts = line.split("\\|");
         return Country.builder()
-                .id(randomUUID().toString())
                 .name(countryParts[0])
                 .capital(countryParts[1])
                 .population(valueOf(countryParts[2]))
