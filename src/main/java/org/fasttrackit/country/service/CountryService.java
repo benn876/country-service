@@ -20,8 +20,9 @@ public class CountryService {
     }
 
     public Country getCountryById(Long id) {
-        return repository.findById(id)
+        Country country = repository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Country with id:%s was not found".formatted(id)));
+        return country;
     }
 
     public List<Country> getAllCountriesByContinent(String continent) {
