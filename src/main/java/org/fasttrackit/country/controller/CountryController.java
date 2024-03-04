@@ -16,6 +16,7 @@ import static org.fasttrackit.country.client.model.CountryMapper.toEntity;
 @RestController
 @RequestMapping("countries") //  http://localhost:8080/countries
 @RequiredArgsConstructor
+@CrossOrigin(value = "http://localhost:4200")
 public class CountryController {
     private final CountryService service;
 
